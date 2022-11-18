@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Arrays : MonoBehaviour
 {
@@ -30,8 +31,17 @@ public class Arrays : MonoBehaviour
             Debug.Log(array3[i]);
         }
         ArrayInEinerZeile();
-        //EinerZeile();
-    }
+        array1[3] = 3;
+        Debug.Log(array1[3]);
+        array2[2] = 203;
+        Debug.Log(array2[2]);
+        array3[5] = 333;
+        Debug.Log(array3[5]);
+        array4[2] = "heute";
+        Debug.Log(array4[2]);
+        arrayColorredImageRed[2].gameObject.GetComponent<Image>().color = new Color(0, 255, 0, 255); ;
+    //EinerZeile();
+}
 
 
     void ArrayInEinerZeile()
