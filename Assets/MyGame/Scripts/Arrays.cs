@@ -10,8 +10,8 @@ public class Arrays : MonoBehaviour
     private int[] array3 = new int[7] { 31, 32, 33, 34, 35, 36, 37 };
     private string[] array4 = new string[10] { "array4.1", "array4.2", "array4.3", "array4.4", "array4.5", "array4.6", "array4.7", "array4.8", "array4.9", "array4.10" };
     private GameObject[] arrayColorredImageRed = new GameObject[4];
-    private int[] array5 = new int[52];
-    private int[] array6 = new int[500];
+    private int[] array5 = new int[50];
+    private int[] array6 = new int[498];
     private int[] array7 = new int[499];
     private string[] array8 = new string[100];
     private int[] array9 = new int[1000];
