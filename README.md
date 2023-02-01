@@ -10,3 +10,5 @@ N ist die Anzahl der Elemente in einem Array.
 
 Wie greife ich das Element n – 1 zu?
 array[array.Length -1]
+
+Versionen: Unity 2020.3.18f1 VisualStudio 2019
